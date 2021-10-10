@@ -5,5 +5,3 @@ CodeSnippet is a repository where you can find the best solution of general Data
 ## Language - C++
 
 Initially the solution will be available only in C++.
-
-"Now I am wondering how can I push local repository to github"
