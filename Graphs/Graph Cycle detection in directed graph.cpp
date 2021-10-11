@@ -33,7 +33,7 @@ int main()
         fo(i,m)
         {
                 int x,y;
-                cin>>x>>y; //x-->y
+                cin>>x>>y;
                 adj[x].push_back(y);
 
         }
@@ -50,7 +50,7 @@ int main()
         }
 
         if(cycle) cout<<'1';
-        else cout<<"NOt presetn";
+        else cout<<"0";
 
         return 0;
 }
@@ -58,5 +58,5 @@ int main()
 
 /*
  * Another approach can be
- * call for topolocgial sort, if the length of the returnded list != number of nodes than there is a cycle
+ * ->call for topolocgial sort, if the length of the returnded list != number of nodes than there is a cycle
  */
