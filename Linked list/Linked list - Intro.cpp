@@ -113,3 +113,11 @@ int main()
 
         return 0;
 }
+/*
+   To delete a node without given reference to head
+
+   void deleteNode( Node* del){
+ * del = *(del->next);
+   }
+
+ */
